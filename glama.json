@@ -1,33 +1,4 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "name": "Public Finance MCP",
-  "description": "Public finance data - SEC EDGAR filings, Treasury rates, BLS labor stats",
-  "package": "@leviai/publicfinance-mcp",
-  "category": "finance",
-  "keywords": [
-    "mcp",
-    "finance",
-    "sec",
-    "edgar",
-    "treasury",
-    "bls",
-    "economic-data"
-  ],
-  "maintainers": [
-    "btcgodx"
-  ],
-  "repository": "https://github.com/btcgodx/publicfinance-mcp",
-  "type": "local",
-  "runtime": "node",
-  "version": "1.0.0",
-  "author": "Levi AI",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18"
-  },
-  "capabilities": {
-    "tools": true,
-    "resources": false,
-    "prompts": false
-  }
+  "maintainers": ["btcgodx"]
 }
