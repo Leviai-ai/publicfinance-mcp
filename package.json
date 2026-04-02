@@ -1,5 +1,6 @@
 {
   "name": "@leviai/publicfinance-mcp",
+  "mcpName": "io.github.leviai-ai/publicfinance",
   "version": "1.0.0",
   "description": "Public finance MCP server — SEC EDGAR filings, US Treasury rates, BLS labor statistics, and economic indicators. Zero API keys required.",
   "main": "build/index.js",
