@@ -1,0 +1,66 @@
+{
+  "name": "@leviai/publicfinance-mcp",
+  "version": "1.0.0",
+  "description": "Public finance MCP server — SEC EDGAR filings, US Treasury rates, BLS labor statistics, and economic indicators. Zero API keys required.",
+  "main": "build/index.js",
+  "bin": {
+    "publicfinance-mcp": "build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "finance",
+    "sec",
+    "edgar",
+    "treasury",
+    "yield-curve",
+    "bls",
+    "labor-statistics",
+    "economic-data",
+    "government-data",
+    "public-finance",
+    "interest-rates",
+    "company-filings",
+    "10-k",
+    "10-q",
+    "xbrl",
+    "ai-tools",
+    "claude",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btcgodx/publicfinance-mcp.git"
+  },
+  "homepage": "https://github.com/btcgodx/publicfinance-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/btcgodx/publicfinance-mcp/issues"
+  },
+  "author": "Levi Labs",
+  "license": "MIT",
+  "files": [
+    "build/**/*.js",
+    "build/**/*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
